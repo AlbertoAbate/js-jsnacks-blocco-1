@@ -1,11 +1,22 @@
-// jsnack3
-somma = 0;
+// jsnack4
+var partecipanti = ['paolo', 'fabio', 'lorenzo'];
+var nome = prompt("inserisci il tuo nome");
 
-for (var i = 0; i <= 4; i++) {
-  var numero = parseInt(prompt('inserisci un numero'));
-  somma = somma + numero;
+if (nome == partecipanti) {
+  console.log('puoi partecipare alla festa');
+} else {
+  console.log('mi dispiace, non sei stato invitato');
 }
-console.log(somma);
+
+
+// // jsnack3
+// somma = 0;
+//
+// for (var i = 0; i <= 4; i++) {
+//   var numero = parseInt(prompt('inserisci un numero'));
+//   somma = somma + numero;
+// }
+// console.log(somma);
 
 // // jsnack2
 // var parola1 = prompt("scrivi una parola");
