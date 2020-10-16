@@ -1,28 +1,33 @@
-// jsnack5
-var lista = [];
+// // jsnack5
+// var lista = [];
+//
+// for (var i = 0; i <= 5; i++) {
+//   var numero = parseInt(prompt("inserisci un numero"));
+//   if (numero % 2 != 0) {
+//     lista.push(numero);
+//   }
+// }
+// console.log(lista);
 
-for (var i = 0; i <= 5; i++) {
-  var numero = parseInt(prompt("inserisci un numero"));
-  if (numero % 2 != 0) {
-    lista.push(numero);
+
+
+
+// jsnack4
+var partecipanti = ['paolo', 'fabio', 'lorenzo'];
+var nome = prompt("inserisci il tuo nome");
+var lista = false;
+for (var i = 0; i < partecipanti.length; i++) {
+  var item = partecipanti [i];
+
+  if (nome == item) {
+    lista = true;
   }
 }
-console.log(lista);
-
-
-
-
-// // jsnack4
-// var partecipanti = ['paolo', 'fabio', 'lorenzo'];
-// var nome = prompt("inserisci il tuo nome");
-//
-// if (nome == partecipanti) {
-//   console.log('puoi partecipare alla festa');
-// } else {
-//   console.log('mi dispiace, non sei stato invitato');
-// }
-
-
+if (lista == true) {
+  console.log("il suo invito è valido");
+} else {
+  console.log("il suo invito non è valido");
+}
 // // jsnack3
 // somma = 0;
 //
