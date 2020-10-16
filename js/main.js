@@ -1,16 +1,25 @@
-// jsnack2
-var parola1 = prompt("scrivi una parola");
-var parola2 = prompt("scrivi una seconda parola");
+// jsnack3
+somma = 0;
 
-if (parola1.length > parola2.length) {
-  console.log(parola2 + " " + parola1);
+for (var i = 0; i <= 4; i++) {
+  var numero = parseInt(prompt('inserisci un numero'));
+  somma = somma + numero;
 }
-else if (parola2.length > parola1.length) {
-  console.log(parola1 + " " + parola2);
-}
-else if (parola1 == parola2) {
-  console.log('pareggio');
-}
+console.log(somma);
+
+// // jsnack2
+// var parola1 = prompt("scrivi una parola");
+// var parola2 = prompt("scrivi una seconda parola");
+//
+// if (parola1.length > parola2.length) {
+//   console.log(parola2 + " " + parola1);
+// }
+// else if (parola2.length > parola1.length) {
+//   console.log(parola1 + " " + parola2);
+// }
+// else if (parola1 == parola2) {
+//   console.log('pareggio');
+// }
 
 
 // // jsnack1
