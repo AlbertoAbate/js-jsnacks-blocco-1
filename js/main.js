@@ -1,12 +1,26 @@
-// jsnack4
-var partecipanti = ['paolo', 'fabio', 'lorenzo'];
-var nome = prompt("inserisci il tuo nome");
+// jsnack5
+var lista = [];
 
-if (nome == partecipanti) {
-  console.log('puoi partecipare alla festa');
-} else {
-  console.log('mi dispiace, non sei stato invitato');
+for (var i = 0; i <= 5; i++) {
+  var numero = parseInt(prompt("inserisci un numero"));
+  if (numero % 2 != 0) {
+    lista.push(numero);
+  }
 }
+console.log(lista);
+
+
+
+
+// // jsnack4
+// var partecipanti = ['paolo', 'fabio', 'lorenzo'];
+// var nome = prompt("inserisci il tuo nome");
+//
+// if (nome == partecipanti) {
+//   console.log('puoi partecipare alla festa');
+// } else {
+//   console.log('mi dispiace, non sei stato invitato');
+// }
 
 
 // // jsnack3
